@@ -4,6 +4,7 @@ class Car
 private:
 	int x, y;
 	bool drivingSouth;
+
 public:
 	Car(int xIn, int yIn, bool drivingSouthIn) {
 		x = xIn;
@@ -17,6 +18,7 @@ public:
 		else {
 			x = x + 3;
 		}
+		
 	}
 	bool GetDrivingSouth() {
 		return drivingSouth;
